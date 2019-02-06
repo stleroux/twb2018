@@ -1,0 +1,15 @@
+https://github.com/barryvdh/laravel-debugbar/tree/2.4
+composer require barryvdh/laravel-debugbar:~2.4
+   Barryvdh\Debugbar\ServiceProvider::class,
+   'Debugbar' => Barryvdh\Debugbar\Facade::class,
+php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+
+
+https://github.com/orangehill/iseed
+
+composer require barryvdh/laravel-dompdf
+
+
+
+
+If a section on the site shows up in bold characters instead of standard text, check to see if the items being displayed contain an html tag that would be opened but not closed. I.E.: <strong>,<b>, etc.

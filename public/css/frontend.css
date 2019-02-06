@@ -1,0 +1,14 @@
+body {
+    background-image: url('../images/board_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /*background-color: #ffffff;*/
+    margin-top: 70px;
+}
+
+
+/*body {
+   background-color: #F0F0F0;
+}
+*/
